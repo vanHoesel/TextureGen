@@ -1,0 +1,18 @@
+package TextureGen;
+
+use Moose;
+
+has main_pattern => (
+	is			=> 'ro',
+	isa			=> 'TextureGen::Pattern',
+);
+
+
+	
+};
+
+sub generate {
+	my $self = shift;
+	my width = shift;
+	my hight = shift;
+};
